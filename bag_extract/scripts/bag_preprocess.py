@@ -64,8 +64,6 @@ num=bag.get_message_count('/rslidar_points')                                    
 
 lidar_folder= '{}/lidar'.format(target_dir)
 
-
-# YUNFAN HERE IS THE KEY PART!! 
 if not os.path.isdir(lidar_folder):
 	os.mkdir(lidar_folder)
 print 'Transforming {} LIDAR point cloud files...'.format(num)

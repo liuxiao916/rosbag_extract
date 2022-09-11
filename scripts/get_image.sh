@@ -1,0 +1,1 @@
+python src/get_image.py --file_path '/media/xiao/NRSL12YEARS/forest.bag' --topic '/camera/color/image_raw' --save_dir '/media/xiao/NRSL12YEARS/output/img' 
