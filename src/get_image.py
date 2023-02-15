@@ -32,6 +32,8 @@ with tqdm(total=num) as pbar:
         else:
             cv_img= bridge.imgmsg_to_cv2(msg,desired_encoding="passthrough")
 
+        cv_img = cv2.cvtColor(cv_img,cv2.COLOR_RGB2BGR)
+
         if args.save_time:
             cv2.imwrite(os.path.join(args.save_dir, "{}.jpg".format(t)), cv_img)
         else:
