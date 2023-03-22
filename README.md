@@ -4,10 +4,8 @@ These are some scripts to extract data from rosbag conveniently. Any contributio
 ## Install 
 ``` bash
 sudo apt install python3-rosbag 
-pip3 install tqdm
-pip3 install opencv-python
-pip3 install argparse
-pip3 install cv-bridge
+sudo apt-get install ros-noetic-ros-numpy
+pip3 install tqdm opencv-python argparse cv-bridge
 ```
 
 ## Get_image
