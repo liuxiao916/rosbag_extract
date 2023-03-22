@@ -1,1 +1,1 @@
-python src/get_image.py --file_path '/media/xiao/NRSL12YEARS1/D435/D435i_2023-02-22-17-07-23.bag' --topic '/camera/color/image_raw' --save_dir '/media/xiao/NRSL12YEARS1/output/D435/img' 
+python src/get_image.py --file_path '/media/xiao/NRSL12YEARS1/2023-02-23-02-51-31.bag' --topic '/camera/color/image_raw/compressed' --save_dir '/media/xiao/NRSL12YEARS1/rgbd/rgbd/images' --compressed_img True
