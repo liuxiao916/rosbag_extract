@@ -1,5 +1,5 @@
 # rosbag_extract
-These are some scripts to extract data from rosbag conveniently. Any contribution is welcome.
+These are some scripts to extract data from rosbag conventiently. Any contribution is welcome.
 
 ## Install 
 ``` bash
